@@ -1,0 +1,29 @@
+{
+    "screening": [
+        {
+            "step": "1",
+            "title":"Resume Screening",
+            "description": "Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit."
+        },
+        {
+            "step": "2",
+            "title":"Video Interview",
+            "description": "Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit."
+        },
+        {
+            "step": "3",
+            "title":"Technical Evaluation",
+            "description": "Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit."
+        },
+        {
+            "step": "4",
+            "title":"Application Review",
+            "description": "Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit."
+        },
+        {
+            "step": "5",
+            "title":"Lets get to work",
+            "description": "Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit."
+        }
+    ]
+}

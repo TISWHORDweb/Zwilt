@@ -9,6 +9,7 @@
   font-optical-sizing: auto;
   border: none;
   outline: none;
+  list-style: none;
 }
 
 .flex {
@@ -196,4 +197,56 @@
 .Section2 .top img {
   width: 100px;
   margin-right: 20px;
+}
+
+.shadow {
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.0705882353);
+}
+
+.Section3 {
+  padding: 100px 0;
+}
+.Section3 h2 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.Section3 ul {
+  margin: 0;
+  padding: 0;
+}
+.Section3 ul li {
+  border: 1.5px solid #F0F0F0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.Section3 ul li img {
+  width: 15px;
+  -o-object-position: center;
+     object-position: center;
+}
+.Section3 ul li p, .Section3 ul li small {
+  font-size: 13px;
+}
+.Section3 ul li .light {
+  background-color: var(--color-gray2);
+  width: 50px;
+  height: 50px;
+  padding: 13px 18px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.Section3 ul li .light:hover {
+  background-color: #ddd;
+}
+.Section3 ul li .light-blue {
+  background-color: var(--color-light-blue);
+  width: 50px;
+  height: 50px;
+  padding: 13px 18px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.Section3 ul li .light-blue:hover {
+  background-color: #7291fe;
 }/*# sourceMappingURL=style.css.map */
