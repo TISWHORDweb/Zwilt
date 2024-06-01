@@ -2,15 +2,104 @@
   --color-blue: #525AA0;
   --color-black: #202229;
   --color-yellow: #FFBE2E;
+  --color-yellow-dark: #f9b31c;
   --color-white: #FFFFFF;
   --color-green: #C7F4C2;
   --color-light: #F8F8F8;
   --color-light-gray: #959595;
-  --color-light-gray2: #D2D2D2;
+  --color-gray: #C6C4C4;
+  --color-light-gray2: #f2f1f1;
   --color-footer: linear-gradient(180deg, #0C0C0C 0%, #202229 100%);
   --color-light-footer: #292B34;
 }
 
+
+.margin60 {
+  margin: 60px 0;
+}
+
+.margin50 {
+  margin: 50px 0;
+}
+
+.margin70 {
+  margin: 70px 0;
+}
+
+.margin80 {
+  margin: 80px 0;
+}
+
+.margin100 {
+  margin: 100px 0;
+}
+
+.margin40 {
+  margin: 40px 0;
+}
+
+.margin30 {
+  margin: 30px 0;
+}
+
+.margin20 {
+  margin: 20px 0;
+}
+
+.padding60 {
+  padding: 60px;
+}
+
+.padding50 {
+  padding: 50px;
+}
+
+.padding70 {
+  padding: 70px;
+}
+
+.padding100 {
+  padding: 100px 0;
+}
+
+.padding40 {
+  padding: 40px;
+}
+
+.padding30 {
+  padding: 30px;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.padding10 {
+  padding: 10px;
+}
+
+.w100 {
+  width: 100%;
+}
+.w65 {
+  width: 65px;
+}
+
+.w45 {
+  width: 45px;
+}
+.black {
+  color: var(--color-black);
+}
+.white {
+  color: var(--color-white);
+}
+
+/* WHITE BUTTONS */
 .btn-white {
   background-color: var(--color-white);
   padding: 10px 14px;
@@ -20,4 +109,68 @@
 
 .btn-white:hover {
   background-color: var(--color-light);
+}
+
+/* YELLOW BUTTONS */
+.btn-yellow {
+  background-color: var(--color-yellow);
+  /* padding: 30px 14px; */
+  height: 70px;
+  width: 70px;
+  border-radius: 13px;
+  color: black;
+}
+.btn-yellow img{
+  width: 25px;
+}
+.btn-yellow:hover {
+  background-color: var(--color-yellow-dark);
+}
+
+/* LIGHT BUTTONS */
+.btn-light {
+  background-color: var(--color-light-gray2);
+  /* padding: 30px 14px; */
+  height: 70px;
+  width: 70px;
+  border-radius: 13px;
+  color: black;
+}
+.btn-light img{
+  width: 25px !important;
+}
+.btn-light:hover {
+  background-color: #ddd;
+}
+
+/* DARK BUTTONS */
+.btn-dark {
+  background-color: var(--color-black);
+  /* padding: 30px 14px; */
+  height: 70px;
+  width: 70px;
+  border-radius: 13px;
+  color: black;
+}
+.btn-dark img{
+  width: 25px !important;
+}
+.btn-dark:hover {
+  background-color: #000;
+}
+
+/* SMALL WHITE BUTTONS */
+.btn-small-white {
+  background-color: var(--color-white);
+  /* padding: 30px 14px; */
+  height: 45px;
+  width: 45px;
+  border-radius: 13px;
+  color: black;
+}
+.btn-small-white img{
+  width: 15px !important;
+}
+.btn-small-white:hover {
+  background-color: #efefef;
 }
