@@ -1,22 +1,4 @@
-# Implementation Overview:
-
-# Components:
-
-ScreeningSteps.js: This component renders the screening steps using buttons and descriptions. It is connected to the Redux store using connect from react-redux.
-# Actions and Reducer:
-
-actions.js: Defines action types: SHOW_DESCRIPTION and HIDE_ALL_DESCRIPTIONS. Action creators are created to return action objects with necessary information.
-reducer.js: Handles actions to update the state:
-SHOW_DESCRIPTION: Sets the description for the clicked step to visible, while hiding others.
-HIDE_ALL_DESCRIPTIONS: Resets all descriptions to hidden.
-# Challenges Faced:
-
-Ensuring State Consistency: Maintaining consistent state updates across descriptions and maintaining an easily manageable data structure required careful consideration.
-# Decisions Made:
-
-Separating Data and Descriptions: Storing screening data (titles and descriptions) in a separate array within the state (screeningData) simplified access in the component and reduced reliance on complex state object manipulation.
-
-Zwiltz: React Screening Steps with Redux
+# Zwiltz: React Screening Steps with Redux
 
 # Description:
 
@@ -37,6 +19,25 @@ Props
 Redux State Management
 React Components with Redux Integration
 Action Creators and Reducers
+
+# Implementation Overview:
+
+# Components:
+
+ScreeningSteps.js: This component renders the screening steps using buttons and descriptions. It is connected to the Redux store using connect from react-redux.
+# Actions and Reducer:
+
+actions.js: Defines action types: SHOW_DESCRIPTION and HIDE_ALL_DESCRIPTIONS. Action creators are created to return action objects with necessary information.
+reducer.js: Handles actions to update the state:
+SHOW_DESCRIPTION: Sets the description for the clicked step to visible, while hiding others.
+HIDE_ALL_DESCRIPTIONS: Resets all descriptions to hidden.
+# Challenges Faced:
+
+Ensuring State Consistency: Maintaining consistent state updates across descriptions and maintaining an easily manageable data structure required careful consideration.
+# Decisions Made:
+
+Separating Data and Descriptions: Storing screening data (titles and descriptions) in a separate array within the state (screeningData) simplified access in the component and reduced reliance on complex state object manipulation.
+
 
 
 # Getting Started with Create React App
