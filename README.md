@@ -1,3 +1,44 @@
+# Implementation Overview:
+
+# Components:
+
+ScreeningSteps.js: This component renders the screening steps using buttons and descriptions. It is connected to the Redux store using connect from react-redux.
+# Actions and Reducer:
+
+actions.js: Defines action types: SHOW_DESCRIPTION and HIDE_ALL_DESCRIPTIONS. Action creators are created to return action objects with necessary information.
+reducer.js: Handles actions to update the state:
+SHOW_DESCRIPTION: Sets the description for the clicked step to visible, while hiding others.
+HIDE_ALL_DESCRIPTIONS: Resets all descriptions to hidden.
+# Challenges Faced:
+
+Ensuring State Consistency: Maintaining consistent state updates across descriptions and maintaining an easily manageable data structure required careful consideration.
+# Decisions Made:
+
+Separating Data and Descriptions: Storing screening data (titles and descriptions) in a separate array within the state (screeningData) simplified access in the component and reduced reliance on complex state object manipulation.
+
+Zwiltz: React Screening Steps with Redux
+
+# Description:
+
+Finding the perfect candidate is now a breeze! Streamline your hiring process with our innovative pre-screening tool that leverages smart technology to match you with top talent. No more sifting through endless resumes, our rigorous vetting process identifies ideal candidates, saving you precious time and resources. Focus on what matters most – building a successful team.
+
+# Installation:
+
+Clone the repository: git clone https://github.com/TISWHORDweb/Zwilt.git
+Install dependencies: npm install
+# Usage:
+
+Start the development server: npm start
+Open http://localhost:3000 (or the specified port) in your browser.
+# Key Concepts:
+
+Designs
+Props
+Redux State Management
+React Components with Redux Integration
+Action Creators and Reducers
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
