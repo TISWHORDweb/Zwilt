@@ -249,4 +249,46 @@
 }
 .Section3 ul li .light-blue:hover {
   background-color: #7291fe;
+}
+
+.Section4 {
+  padding: 50px 0;
+}
+.Section4 h2 {
+  font-size: 43px;
+  font-weight: 700;
+}
+.Section4 .only {
+  margin-top: 90px;
+  margin-left: 20px;
+}
+.Section4 .only img {
+  width: 80%;
+}
+.Section4 .purp .text, .Section4 .yell .text, .Section4 .light .text {
+  padding-top: 40px;
+}
+.Section4 .purp .text h4, .Section4 .yell .text h4, .Section4 .light .text h4 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.Section4 .yell {
+  background-image: url(../Assets/Background/bg3.png);
+  margin-top: -25px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Section4 .light {
+  background-image: url(../Assets/Background/bg1.png);
+  margin-top: -15px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Section4 .purp {
+  background-image: url(../Assets/Background/bg2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */
