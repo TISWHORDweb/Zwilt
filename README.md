@@ -1,4 +1,4 @@
-# Zwiltz: React Screening Steps with Redux
+# Zwiltz
 
 # Description:
 
