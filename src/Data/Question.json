@@ -1,0 +1,44 @@
+{
+    "questions": [
+        {
+            "title":"I want to work part-time, is that possible",
+            "general":1,
+            "process":0
+        },
+        {
+            "title":"How long are the average projects?",
+            "general":0,
+            "process":0
+        },
+        {
+            "title":"How does the payment works?",
+            "general":0,
+            "process":0
+        },
+        {
+            "title":"How much can I earn? ",
+            "general":0,
+            "process":0
+        },
+        {
+            "title":"I want to work part-time, is that possible ",
+            "general":1,
+            "process":1
+        },
+        {
+            "title":"How long are the average projects? ",
+            "general":0,
+            "process":0
+        },
+        {
+            "title":" How long are the average projects?",
+            "general":0,
+            "process":0
+        },
+        {
+            "title":"How much can I earn? ",
+            "general":0,
+            "process":0
+        }
+    ]
+}
