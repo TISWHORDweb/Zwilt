@@ -38,7 +38,7 @@ function Section2() {
                     </div>
                 </div>
             </div>
-            <img src={Vec} alt="" className='w100' />
+            <img src={Vec} alt="" className='w100 patch' />
         </div>
     )
 }

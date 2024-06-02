@@ -21,9 +21,8 @@ function Section1() {
     return (
         <div>
             <div className=" pt-3">
-                <img src={Img1} alt="" className='w100' />
+                <img src={Img1} alt="" className='w100 patch' />
                 <div className="Section1 ">
-                  
                     <div className="container ">
                         <center>
                             <div className="top-text">
@@ -83,7 +82,7 @@ function Section1() {
                                             <img src={Img10} alt="" />
                                             <p>Dot Net <br /> Developer</p>
                                         </div>
-                                        <div className="each">
+                                        <div className="each mt-4">
                                             <button className='btn-light'><img src={Icon} alt="" /></button>
                                         </div>
                                     </div>
@@ -121,7 +120,7 @@ function Section1() {
                                 <div className="cardd">
                                     <h6>Design & Creative</h6>
                                     <div className="stacks">
-                                        <div className="each">
+                                        <div className="each mt-4">
                                             <button className='btn-light'><img src={Icon} alt="" /></button>
                                         </div>
                                         <div className="each">
@@ -148,7 +147,7 @@ function Section1() {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-4">
+                        <div className="row mb-4 ">
                             <div className="col-md-4 mb-3">
                                 <div className="flex">
                                     <button className='btn-dark'><img src={Icon2} alt="" /></button>
@@ -160,8 +159,10 @@ function Section1() {
                                 <p className='mt-3'><b>30 more</b> to explore</p>
                             </div>
                         </div>
+                        <div className="padding50"></div>
+                        {/* <div className="margin50"></div> */}
                     </div>
-                    <div className="margin50"></div>
+                   
                 </div>
 
             </div>

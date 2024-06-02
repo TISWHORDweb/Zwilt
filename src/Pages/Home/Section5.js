@@ -5,7 +5,7 @@ import Lays from '../../Assets/Layers/lays.png'
 function Section5() {
     return (
         <div>
-            <div className="Section5 pt-5 pb-5">
+            <div className="Section5 pb-5">
                 <div className="container-xxl">
                     <div className="row">
                         <div className="col-md-4">
@@ -22,7 +22,7 @@ function Section5() {
                 </div>
             </div>
             <div className="">
-                <img src={Lays} alt="" className='w100' />
+                <img src={Lays} alt="" className='w100 patch2' />
             </div>
         </div>
     )

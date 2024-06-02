@@ -22,7 +22,7 @@ function Footer() {
                     </div>
 
                     <div className="row mt-5 pb-5">
-                        <div className="col-md-3">
+                        <div className="col-md-3 mb-3">
                             <div className="first ">
                                 <p className='mt-3'>LINKS AND REDIRECTS</p>
                                 <div className="btns">

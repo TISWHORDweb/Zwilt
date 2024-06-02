@@ -6,7 +6,7 @@ function GetStarted() {
     return (
         <div>
             <div className="GetStarted">
-                <img src={Lay} alt="" className='w100' />
+                <img src={Lay} alt="" className='w100 patch3' />
                 <div className="startCard">
                     <center>
                         <div className="container">
