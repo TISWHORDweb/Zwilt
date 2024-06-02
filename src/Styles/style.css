@@ -225,7 +225,8 @@
   -o-object-position: center;
      object-position: center;
 }
-.Section3 ul li p, .Section3 ul li small {
+.Section3 ul li p,
+.Section3 ul li small {
   font-size: 13px;
 }
 .Section3 ul li .light {
@@ -265,10 +266,14 @@
 .Section4 .only img {
   width: 80%;
 }
-.Section4 .purp .text, .Section4 .yell .text, .Section4 .light .text {
+.Section4 .purp .text,
+.Section4 .yell .text,
+.Section4 .light .text {
   padding-top: 40px;
 }
-.Section4 .purp .text h4, .Section4 .yell .text h4, .Section4 .light .text h4 {
+.Section4 .purp .text h4,
+.Section4 .yell .text h4,
+.Section4 .light .text h4 {
   font-weight: 600;
   font-size: 30px;
 }
@@ -281,7 +286,7 @@
 }
 .Section4 .light {
   background-image: url(../Assets/Background/bg1.png);
-  margin-top: -15px;
+  margin-top: -25px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -291,4 +296,142 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.Section5 {
+  background-image: linear-gradient(white, #F3F4FF);
+}
+
+.mySwiper .Slider1 {
+  background-color: var(--color-white);
+  box-shadow: 0px 15px 30px 0px rgba(191, 181, 255, 0.1490196078);
+  border-radius: 15px;
+}
+.mySwiper .Slider1 .text h2 {
+  font-size: 40px;
+}
+.mySwiper .Slider1 .text ul {
+  padding: 0;
+}
+.mySwiper .Slider1 .text ul li {
+  display: flex;
+  align-items: center;
+}
+.mySwiper .Slider1 .text ul li img {
+  width: 13px;
+}
+.mySwiper .Slider1 .text ul li p {
+  margin: 0;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.mySwiper .Slider1 .imageCard img {
+  width: 100%;
+}
+
+.Questions {
+  margin-top: -60px;
+  background: #F3F3F3;
+}
+.Questions .Question {
+  border-top: 1px solid #D6D6D6;
+  border-bottom: 1px solid #D6D6D6;
+  cursor: pointer;
+}
+.Questions .Question img {
+  width: 13px;
+}
+.Questions .Question .dark {
+  background: #E8E8E8;
+}
+.Questions .Question .br,
+.Questions .Question .bl {
+  border-right: 1px solid #D6D6D6;
+}
+.Questions .Question .bl {
+  border-left: 1px solid #D6D6D6;
+}
+.Questions .Question .general,
+.Questions .Question .process,
+.Questions .Question .title,
+.Questions .Question .icon {
+  text-align: left;
+  padding: 30px 50px;
+}
+.Questions .Question .icon {
+  display: none;
+}
+.Questions .Question:hover {
+  background: #E8E8E8;
+}
+.Questions .Question:hover .icon {
+  display: block;
+}
+.Questions .Question:hover .title {
+  font-weight: 600;
+}
+
+.GetStarted {
+  margin-top: -60px;
+}
+.GetStarted .startCard {
+  background: #000;
+}
+.GetStarted .startCard .contact {
+  background-image: url(../Assets/Background/bg4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Footer {
+  background: #000;
+}
+.Footer .first img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.Footer .first small {
+  color: var(--color-light-gray);
+  margin-bottom: 50px;
+}
+.Footer .first p {
+  color: var(--color-light-gray);
+  font-size: 11px;
+  font-weight: 600;
+}
+.Footer .second ul {
+  padding: 0;
+}
+.Footer .second ul .dark {
+  color: var(--color-light-gray);
+  font-size: 11px;
+  font-weight: 600;
+}
+.Footer .second ul li {
+  color: white;
+  margin: 15px;
+  font-size: 14px;
+}
+.Footer .down {
+  margin-top: 50px;
+  border-top: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 12px;
+}
+.Footer .down p {
+  margin: 0;
+  color: white;
+}
+.Footer .down div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Footer .down div span {
+  text-decoration: underline !important;
+  color: var(--color-light-gray);
+  margin-left: 30px;
 }/*# sourceMappingURL=style.css.map */
