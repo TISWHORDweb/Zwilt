@@ -26,7 +26,7 @@ function Section4() {
                         </div>
                         <div className="col-md-4 pt-5 pb-5">
                             <div className="text">
-                                <h4>Find your next star performer.</h4>
+                                <h4>Find your next star <br /> performer.</h4>
                                 <p>Explore the vast Zwilt marketplace to find the candidate that meets your needs.</p>
                                 <div className="flex pt-3">
                                 <button className='btn-small-dark'><img src={Icon2} alt="" /></button>
@@ -49,7 +49,7 @@ function Section4() {
                         </div>
                         <div className="col-md-4 pt-5 pb-5">
                             <div className="text">
-                                <h4>Evaluate to your heart’s content.</h4>
+                                <h4>Evaluate to your heart’s <br /> content.</h4>
                                 <p>Assess the candidate through work history, transparent tests and video interviews.</p>
                                 <div className="flex pt-3">
                                 <button className='btn-small-dark'><img src={Icon2} alt="" /></button>
@@ -72,7 +72,7 @@ function Section4() {
                         </div>
                         <div className="col-md-4 pt-5 pb-5">
                             <div className="text">
-                                <h4>Start building your team.</h4>
+                                <h4>Start building your <br /> team.</h4>
                                 <p>Onboard your candidate right away and start creating the next big thing.</p>
                                 <div className="flex pt-3">
                                 <button className='btn-small-dark'><img src={Icon2} alt="" /></button>
