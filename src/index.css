@@ -79,6 +79,16 @@
 .f20 {
   font-size: 20px;
 }
+.f50 {
+  font-size: 50px;
+}
+.f45 {
+  font-size: 45px;
+}
+
+.f40 {
+  font-size: 40px;
+}
 
 .padding10 {
   padding: 10px;
@@ -90,7 +100,9 @@
 .w65 {
   width: 65px;
 }
-
+.w10 {
+  width: 10px !important;
+}
 .w45 {
   width: 45px;
 }
@@ -171,7 +183,7 @@
   color: black;
 }
 .btn-small-dark img{
-  width: 18px !important;
+  width: 18px ;
 }
 .btn-small-dark:hover {
   background-color: #000;
@@ -191,4 +203,17 @@
 }
 .btn-small-white:hover {
   background-color: #efefef;
+}
+
+/* LIGHT BUTTONS */
+.btn-lights {
+  background: #292B34;
+  padding: 11px 20px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+.btn-lights:hover {
+  background-color: var(--color-light-gray);
 }
