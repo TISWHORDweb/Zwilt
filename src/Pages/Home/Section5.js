@@ -1,14 +1,31 @@
 import React from 'react'
+import Slider from '../../Components/Slider'
+import Lays from '../../Assets/Layers/lays.png'
 
 function Section5() {
-  return (
-    <div>
-        <div className="Section5">
-            <div className="margin50"></div>
-            
+    return (
+        <div>
+            <div className="Section5 pt-5 pb-5">
+                <div className="container-xxl">
+                    <div className="row">
+                        <div className="col-md-4">
+                            <div className="text p-5 mt-5">
+                                <h2><b>Why choose Zwilt?</b></h2>
+                                <p className='f20'>We take complex hiring processes - and simplify them. Connecting you to the world’s highly qualified talent pool.</p>
+                            </div>
+                        </div>
+                        {/* <div className="col-md-1"></div> */}
+                        <div className="col-md-8">
+                            <Slider />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="">
+                <img src={Lays} alt="" className='w100' />
+            </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Section5
