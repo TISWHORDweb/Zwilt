@@ -4,7 +4,7 @@ import Groove from '../../Assets/logo/grl.png'
 import Groove1 from '../../Assets/logo/gr.png'
 import Left from '../../Assets/icons/icon7.png'
 import Right from '../../Assets/icons/icon6.png'
-import Vec from '../../Assets/layers/vec.png'
+import Vec from '../../Assets/layers/vecc.png'
 
 
 function Section2() {
