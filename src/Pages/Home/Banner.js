@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Search from '../../Components/Search'
-import Img from '../../Assets/background/text-img.png'
+import Img from '../../Assets/background/text.png'
 import Jobs from '../../Data/Jobs.json'
 
 function Banner() {
