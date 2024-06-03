@@ -1,6 +1,6 @@
 import React from 'react'
-import Lay from '../Assets/Layers/vecs.png'
-import Icon from '../Assets/Icons/icon11.png'
+import Lay from '../Assets/layers/vecs.png'
+import Icon from '../Assets/icons/icon11.png'
 
 function GetStarted() {
     return (

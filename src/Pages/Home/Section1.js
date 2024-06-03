@@ -1,20 +1,20 @@
 import React from 'react'
-import Img1 from '../../Assets/Layers/union.png'
-import Img2 from '../../Assets/Icons/icon2.png'
-import Img3 from '../../Assets/Icons/icon3.png'
-import Img4 from '../../Assets/Icons/icon4.png'
-import Img5 from '../../Assets/Logo/ai.png'
-import Img6 from '../../Assets/Logo/dash.png'
-import Img7 from '../../Assets/Logo/figma.png'
-import Img8 from '../../Assets/Logo/frame.png'
-import Img9 from '../../Assets/Logo/photo.png'
-import Img10 from '../../Assets/Logo/rotate.png'
-import Img11 from '../../Assets/Logo/shopify.png'
-import Img12 from '../../Assets/Logo/uid.png'
-import Img13 from '../../Assets/Logo/wix.png'
-import Img14 from '../../Assets/Logo/cinema.png'
-import Icon from '../../Assets/Icons/icon1.png'
-import Icon2 from '../../Assets/Icons/icon5.png'
+import Img1 from '../../Assets/layers/union.png'
+import Img2 from '../../Assets/icons/icon2.png'
+import Img3 from '../../Assets/icons/icon3.png'
+import Img4 from '../../Assets/icons/icon4.png'
+import Img5 from '../../Assets/logo/ai.png'
+import Img6 from '../../Assets/logo/dash.png'
+import Img7 from '../../Assets/logo/figma.png'
+import Img8 from '../../Assets/logo/frame.png'
+import Img9 from '../../Assets/logo/photo.png'
+import Img10 from '../../Assets/logo/rotate.png'
+import Img11 from '../../Assets/logo/shopify.png'
+import Img12 from '../../Assets/logo/uid.png'
+import Img13 from '../../Assets/logo/wix.png'
+import Img14 from '../../Assets/logo/cinema.png'
+import Icon from '../../Assets/icons/icon1.png'
+import Icon2 from '../../Assets/icons/icon5.png'
 
 
 function Section1() {
@@ -159,10 +159,14 @@ function Section1() {
                                 <p className='mt-3'><b>30 more</b> to explore</p>
                             </div>
                         </div>
-                        <div className="padding50"></div>
-                        {/* <div className="margin50"></div> */}
+                        <div className="pad">
+                            <div className="padding50"></div>
+                        </div>
+                        <div className="marg">
+                            <div className="margin50"></div>
+                        </div>
                     </div>
-                   
+
                 </div>
 
             </div>

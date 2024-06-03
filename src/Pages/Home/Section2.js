@@ -1,10 +1,10 @@
 import React from 'react'
-import Jason from '../../Assets/Background/jason.png'
-import Groove from '../../Assets/Logo/groove.png'
-import Groove1 from '../../Assets/Logo/groove1.png'
-import Left from '../../Assets/Icons/icon7.png'
-import Right from '../../Assets/Icons/icon6.png'
-import Vec from '../../Assets/Layers/vec.png'
+import Jason from '../../Assets/background/jason.png'
+import Groove from '../../Assets/logo/groove.png'
+import Groove1 from '../../Assets/logo/groove1.png'
+import Left from '../../Assets/icons/icon7.png'
+import Right from '../../Assets/icons/icon6.png'
+import Vec from '../../Assets/layers/vec.png'
 
 
 function Section2() {

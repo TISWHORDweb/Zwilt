@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon from '../Assets/Icons/icon1.png'
+import Icon from '../Assets/icons/icon1.png'
 
 function Search() {
     return (

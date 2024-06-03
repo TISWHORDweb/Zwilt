@@ -2,8 +2,8 @@
 // import { connect } from 'react-redux';
 // import { toggleText } from '../Redux/Actions';
 // import Screening from '../Data/Screening.json'
-// import Icon1 from '../Assets/Icons/icon8.png'
-// import Icon2 from '../Assets/Icons/icon9.png'
+// import Icon1 from '../Assets/icons/icon8.png'
+// import Icon2 from '../Assets/icons/icon9.png'
 
 // const Card = ({ showText, toggleText }) => {
 //     const [screening, setScreening] = useState()

@@ -1,12 +1,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Dot from '../Assets/Icons/dot.png'
-import Dot1 from '../Assets/Icons/dot2.png'
-import Dot2 from '../Assets/Icons/dot3.png'
-import Img1 from '../Assets/Layers/carousel1.png'
-import Img2 from '../Assets/Layers/carousel2.png'
-import Img3 from '../Assets/Layers/carousel3.png'
-import Icon2 from '../Assets/Icons/icon5.png'
+import Dot from '../Assets/icons/dot.png'
+import Dot1 from '../Assets/icons/dot2.png'
+import Dot2 from '../Assets/icons/dot3.png'
+import Img1 from '../Assets/layers/carousel1.png'
+import Img2 from '../Assets/layers/carousel2.png'
+import Img3 from '../Assets/layers/carousel3.png'
+import Icon2 from '../Assets/icons/icon5.png'
 
 import "swiper/css";
 

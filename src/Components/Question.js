@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon from '../Assets/Icons/icon10.png'
+import Icon from '../Assets/icons/icon10.png'
 
 
 function Question(props) {

@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { showDescription, hideAllDescriptions } from '../Redux/Actions';
-import Icon1 from '../Assets/Icons/icon8.png'
-import Icon2 from '../Assets/Icons/icon9.png'
+import Icon1 from '../Assets/icons/icon8.png'
+import Icon2 from '../Assets/icons/icon9.png'
 
 
 const ScreeningSteps = ({ screeningData, descriptions, showDescription, hideAllDescriptions }) => (
