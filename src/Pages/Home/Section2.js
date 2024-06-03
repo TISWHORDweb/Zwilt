@@ -1,5 +1,5 @@
 import React from 'react'
-import Jason from '../../Assets/background/jason.png'
+import Jason from '../../Assets/background/jjj.png'
 import Groove from '../../Assets/logo/groove.png'
 import Groove1 from '../../Assets/logo/groove1.png'
 import Left from '../../Assets/icons/icon7.png'
