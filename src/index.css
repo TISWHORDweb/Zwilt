@@ -79,6 +79,9 @@
 .f20 {
   font-size: 20px;
 }
+.f14 {
+  font-size: 14px !important;
+}
 .f50 {
   font-size: 50px;
 }

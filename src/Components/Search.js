@@ -15,7 +15,7 @@ function Search() {
                 </div>
                 <div className="Search">
                     <div className="flex">
-                        <p className='mb-0'>Looking for <span>design |</span></p>
+                        <p className='mb-0 '>Looking for <span>design |</span></p>
                         <input type="text" />
                     </div>
                     <button className='btn-yellow'><img src={Icon} alt="" /></button>
