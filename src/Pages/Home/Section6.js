@@ -7,7 +7,7 @@ function Section6() {
     const [questions, setQuestions] = useState()
     useEffect(() => {
         setQuestions(Questions.questions)
-    })
+    },[])
     return (
         <div >
             <div className="Questions pt-4  pb-5">

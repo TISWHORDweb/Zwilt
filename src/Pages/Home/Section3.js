@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Icon1 from '../../Assets/Icons/icon8.png'
-import Icon2 from '../../Assets/Icons/icon9.png'
-import Card from '../../Components/Card'
 import Screening from '../../Data/Screening.json'
 import ScreeningSteps from '../../Components/ScreeningStep';
-import ScreeningStep from '../../Components/ScreeningStep';
 
 function Section3() {
     const [screening, setScreening] = useState()
