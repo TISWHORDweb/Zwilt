@@ -29,12 +29,12 @@ function Banner() {
                         <div className="col-md-10">
                             <div className="jobs">
                                 <center>
-                                    <div className="col-md-5">
+                                    {/* <div className="col-md-5"> */}
                                         <div className="top mb-4">
                                             <span className='active'>IT & Development</span>
                                             <span>Design and Creative</span>
                                         </div>
-                                    </div>
+                                    {/* </div> */}
                                 </center>
                                 <div className="list">
                                     <div className="row">

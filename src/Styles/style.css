@@ -115,12 +115,13 @@
   display: flex;
   justify-content: center;
   margin: 0 15px;
+  width: 400px;
   align-items: center;
   justify-content: space-between;
   border-radius: 14px;
 }
 .jobs .top span {
-  font-size: 14px !important;
+  font-size: 13px !important;
   padding: 10px 20px;
   font-weight: 500;
 }
@@ -517,6 +518,9 @@
   }
   .secondsearch {
     display: block;
+  }
+  .jobs .top {
+    width: 300px;
   }
   .jobs .top span {
     font-size: 12px !important;
