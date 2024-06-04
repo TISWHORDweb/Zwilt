@@ -21,7 +21,7 @@ function Banner() {
                             <Search />
                         </div>
                     </center>
-                </div>
+                </div> 
                 <div className="margin40"></div>
                 <div className="container">
                     <div className="row">
