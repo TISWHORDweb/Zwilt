@@ -144,7 +144,7 @@
 .Section1 {
   margin-top: -35px;
   z-index: -1;
-  background-image: url(../Assets/background/bgg.png);
+  background-image: url(../Assets/images/bgg.png);
   background-size: cover;
   padding: 100px 0;
 }
@@ -309,21 +309,21 @@
   font-size: 30px;
 }
 .Section4 .yell {
-  background-image: url(../Assets/background/bg3.png);
+  background-image: url(../Assets/images/bg3.png);
   margin-top: -25px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .Section4 .light {
-  background-image: url(../Assets/background/bg1.png);
+  background-image: url(../Assets/images/bg1.png);
   margin-top: -25px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .Section4 .purp {
-  background-image: url(../Assets/background/bg2.png);
+  background-image: url(../Assets/images/bg2.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -416,7 +416,7 @@
   background: #000;
 }
 .GetStarted .startCard .contact {
-  background-image: url(../Assets/background/bg4.png);
+  background-image: url(../Assets/images/bg4.png);
   background-size: cover;
   background-repeat: no-repeat;
 }

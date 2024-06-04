@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from '../../Components/Slider'
-import Lays from '../../Assets/layers/layyy.png'
+import Lays from '../../Assets/images/layyy.png'
 
 function Section5() {
     return (

@@ -1,11 +1,11 @@
 import React from 'react'
-import Icon2 from '../../Assets/icons/icon5.png'
-import One from '../../Assets/layers/oness.png'
-import Two from '../../Assets/layers/twwo.png'
-import Three from '../../Assets/layers/thrree.png'
-import Lay1 from '../../Assets/layers/crop.png'
-import Lay2 from '../../Assets/layers/crop2.png'
-import Lay3 from '../../Assets/layers/crop3.png'
+import Icon2 from '../../Assets/images/icon5.png'
+import One from '../../Assets/images/oness.png'
+import Two from '../../Assets/images/twwo.png'
+import Three from '../../Assets/images/thrree.png'
+import Lay1 from '../../Assets/images/crop.png'
+import Lay2 from '../../Assets/images/crop2.png'
+import Lay3 from '../../Assets/images/crop3.png'
 
 
 function Section4() {
