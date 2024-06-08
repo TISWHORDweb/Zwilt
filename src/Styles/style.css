@@ -12,6 +12,10 @@
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .flex {
   display: flex;
   align-items: center;
